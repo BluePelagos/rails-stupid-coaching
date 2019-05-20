@@ -1,6 +1,17 @@
-<h1>Stupid Coaching</h1>
-<p>Ask the coach a question</p>
-<form action="/answer" method="get">
-  <input type="text" name="question" placeholder="What is your question?">
-  <input type="submit">
-</form>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="application.css">
+
+
+  <h1>Stupid Coaching</h1>
+
+  <p>Ask your coach anyhting:</p>
+
+    <form action="/answer" method="get" class="form-inline">
+      <div class="input-group w-50">
+        <input type="text" name="question" placeholder="What is your question?" class="form-control">
+        <span class="input-group-btn">
+          <input type="submit" value="Ask" class="btn btn-primary">
+        </span>
+      </div>
+    </form>
+
